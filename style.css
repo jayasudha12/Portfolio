@@ -1,0 +1,599 @@
+*
+{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    color:black;
+    
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size:25px;
+    color:black;
+    text-decoration:none;
+    font-weight:600;
+
+}
+.navbar a{
+    display: inline-block;
+    font-size:25px;
+    color:black;
+    text-decoration:none;
+    font-weight: 500;
+    margin-left:35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:whitesmoke;
+
+}
+.home{
+    position:relative;
+    width:100%;
+    justify-content:space-between;
+    height:100vh;
+    background: url(./new1.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    padding:70px 10% 0;
+}
+.home-content{
+    max-width: 600px;
+
+}
+.home-content h3{
+    font-size:23px;
+    font-weight:600;
+
+}
+.home-content h3 span{
+    color :black;
+}
+.home-content h2 {
+    font-size:38px;
+    font-weight:600;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+
+}
+.home-sci a{
+    display : inline-flex;
+    justify-content: center;
+    align-items : center;
+    width: 40px;
+    height: 40px;
+    background:transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+}
+.home-sci a:hover{
+    background: whitesmoke;
+    box-shadow: 0 0 20px 0;
+
+}
+.btn-box{
+    display: inline-block;
+    padding:12px 28px;
+    background : white;
+    border-radius: 40px;
+    font-size:16px;
+    color:black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight:600;
+}
+.btn-box:hover{
+   box-shadow: 0 0 5px grey;
+  
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px; 
+}
+.about{
+    position:relative;
+    width:100%;
+    justify-content:space-between;
+    height:130vh;
+    background: url(./new12.webp)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    padding:70px 10% 0;
+}
+.about{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+.about{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center;
+
+}
+.about-text h2{
+    font-size:60px;
+}
+.about-text h2 span{
+    color : black;
+}
+.about-text h4{
+    font-size:29px;
+    font-weight:600;
+    color:black;
+    line-height:1.7;
+    margin:15px 0 30px;
+
+}
+.about-text p{
+    color: black;
+    font-size:20px;
+    line-height:1.4;
+    margin-bottom:4rem;
+    text-align: justify;
+
+}
+.sub-title{
+    text-align:center;
+    font-size: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 50px; 
+
+}
+
+
+
+.sub-title span{
+    color:black;
+}
+#services{
+    color:black;
+    font-size: 20px;
+    line-height:1.4;
+    margin-bottom:4rem;
+}
+.services-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
+    grid-gap:40px;
+    margin-top:50px;
+}
+.services-list div{
+    background-color: transparent;
+    padding:40px;
+    font-size:13px;
+    font-weight:13px;
+    border-right:10px;
+    border-radius:20px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow :1px 1px 20px black;
+}
+.services-list h2{
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:15px;
+    align-items: justify;
+}
+.services-list div a{
+     text-decoration: none;
+     color:black;
+     text-align: justify;
+     font-size: 12px;
+     margin-top:20px;
+     display:inline-block;
+
+}
+.services-list div p{
+    font-size:18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.read{
+    display:inline-block;
+    padding:12px 28px;
+    background:white;
+    border-radius:40px;
+    font-size:16px;
+    color:black;
+    letter-spacing: 1px;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow : 0 0 5px black;
+}
+.container{
+    padding:90px;
+}
+.services{
+    position:relative;
+    width:100%;
+    justify-content:space-between;
+    height:130vh;
+    background: url(./new15.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    padding:70px 10% 0;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    flex: 1;
+}
+
+
+.container1 {
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+
+.heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.Technical-bars .bar {
+    margin-top: 40px 0;
+}
+
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.Technical-bars .bar .info {
+    margin-bottom: 5px;
+}
+
+.Technical-bars .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background:transparent;
+}
+
+
+
+.Technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color:grey;
+    position: absolute;
+    border-radius: 10px;
+   
+}
+
+.progress-line.html span {
+    width: 90%;
+}
+
+.progress-line.css span {
+    width: 80%;
+}
+
+.progress-line.js span {
+    width: 80%;
+}
+
+.progress-line.cpp span {
+    width: 70%;
+}
+
+.progress-line.python span {
+    width: 80%;
+}
+
+.progress-line.Java span {
+    width: 85%;
+}
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+  
+}
+
+.progress-line.html span::after {
+    content: "90%";
+}
+
+.progress-line.css span::after {
+    content: "80%";
+}
+
+.progress-line.js span::after {
+    content: "80%";
+}
+
+.progress-line.cpp span::after {
+    content: "70%";
+}
+
+.progress-line.python span::after {
+    content: "80%";
+}
+
+.progress-line.Java span::after {
+    content: "85%";
+}
+.progress-line span::before{
+    content:'';
+    position:absolute;
+    width:0;
+    height:0;
+    border:7px solid transparent;
+    border-bottom-width:0px;
+    border-right-width:0px;
+    border-top-color:black;
+    top :-10px;
+    right:0px;
+
+}
+
+
+.radial-bars {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.radial-bars .radial-bar {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars .radial-bar svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.radial-bars .radial-bar .progress-bar {
+    stroke-width: 10;
+    fill: transparent;
+    stroke-linecap: round;
+}
+
+.radial-bars .radial-bar .path {
+    stroke-width: 10;
+    stroke: black;
+    fill: transparent;
+    stroke-linecap: round;
+}
+
+.radial-bars .radial-bar .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Adjustments for each radial-bar */
+.radial-bars .radial-bar:nth-child(1) .progress-bar {
+    stroke-dasharray: calc((var(--percentage1) / 100) * (2 * 3.14159 * 80)) calc(2 * 3.14159 * 80);
+    stroke-dashoffset: calc(2 * 3.14159 * 80 - ((var(--percentage1) / 100) * (2 * 3.14159 * 80)));
+}
+
+.radial-bars .radial-bar:nth-child(2) .progress-bar {
+    stroke-dasharray: calc((var(--percentage2) / 100) * (2 * 3.14159 * 80)) calc(2 * 3.14159 * 80);
+    stroke-dashoffset: calc(2 * 3.14159 * 80 - ((var(--percentage2) / 100) * (2 * 3.14159 * 80)));
+}
+
+.radial-bars .radial-bar:nth-child(3) .progress-bar {
+    stroke-dasharray: calc((var(--percentage3) / 100) * (2 * 3.14159 * 80)) calc(2 * 3.14159 * 80);
+    stroke-dashoffset: calc(2 * 3.14159 * 80 - ((var(--percentage3) / 100) * (2 * 3.14159 * 80)));
+}
+
+.radial-bars .radial-bar:nth-child(4) .progress-bar {
+    stroke-dasharray: calc((var(--percentage4) / 100) * (2 * 3.14159 * 80)) calc(2 * 3.14159 * 80);
+    stroke-dashoffset: calc(2 * 3.14159 * 80 - ((var(--percentage4) / 100) * (2 * 3.14159 * 80)));
+}
+
+/* Add CSS variables for percentage */
+.radial-bars .radial-bar:nth-child(1) {
+    --percentage1: 80;
+}
+
+.radial-bars .radial-bar:nth-child(2) {
+    --percentage2: 60;
+}
+
+.radial-bars .radial-bar:nth-child(3) {
+    --percentage3: 90;
+}
+
+.radial-bars .radial-bar:nth-child(4) {
+    --percentage4: 70;
+}
+.skills{
+    position:relative;
+    width:100%;
+    justify-content:space-between;
+    height:130vh;
+    background: url(./new149.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    padding:70px 10% 0;
+}
+.contact{
+    position:absolute;
+    width:100%;
+    background: url(./img2.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height:130vh;
+    align-items:center;
+    padding:70px 15% 0;
+}
+.contact {
+    margin-top: -68px; 
+}
+
+.contact-text h2{
+    font-size: 90px;
+    line-height:1.7;
+    text-align:center;
+    padding:0%;
+}
+.contact-text h2 span{
+    color:black;
+}
+.contact-text h4{
+    margin:15px 0;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-text p{
+    color:black;
+    font-size:20px;
+    line-height:30px;
+    margin-bottom:2rem;
+
+}
+.contact-list{
+    margin-bottom:3rem; 
+}
+.contact-list li{
+    margin-bottom:10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color:black;
+    font-size:20px;
+    font-weight: 600;
+    transition: all ,40s ease;
+}
+.contact-list li a:hover{
+    transform:scale(1.01) translate(-5px);
+    color:white;
+}
+.contact-icons i{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:40px;
+    height:40px;
+    background:transparent;
+    border:2px solid black;
+    border-radius:50%;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+    margin:30px 15px 30px 0;
+    transition:.5s ease;
+
+}
+.contact-icons i:hover{
+    background:grey;
+    color:black;
+    box-shadow:white;
+
+
+}
+.contact-form form input,form textarea{
+       border:none;
+       outline:none;
+       padding:18px;
+       background:lightwhite;
+       font-size:1rem;
+       color:black;
+       font-weight:600;
+       margin-bottom: 0.5rem;
+       border-radius:0.1rem;
+       box-shadow: silver;
+
+}
+.contact-form form input textarea{
+    resize:none;
+    height:220px;
+}
+.contact-form form .send{
+    justify-content: center;
+    align-items: center;
+    display:inline-block;
+    padding:12px 28px;
+    background:white;
+    border-radius:40px;
+    font-size:16px;
+    color:black;
+    letter-spacing: 1px;
+    text-decoration:none;
+    font-weight:600;
+    box-shadow : 0 0 5px black;
+}
